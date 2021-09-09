@@ -23,6 +23,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         ftp-server: ftp.ladislavprix.cz
-        ftp-username: root.ladislavprix.cz
+        ftp-username: blog.ladislavprix.cz
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: out
