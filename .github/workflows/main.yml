@@ -16,6 +16,9 @@ jobs:
     - name: Build docker with output
       run: docker build -o . .
 
+    - name: List current folder
+      run: ls
+
     - name: List output files
       run: ls out
 
