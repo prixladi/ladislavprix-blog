@@ -1,0 +1,11 @@
+FROM shamyr/contentium-base as builder
+RUN rm -rf ./data
+COPY ./data ./data
+RUN yarn export
+
+FROM nginx:1.21.1-alpine
+
+COPY --from=builder /app/docker/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder /app/out /usr/share/nginx/html
+
+CMD ["nginx", "-g", "daemon off;"]
