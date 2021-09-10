@@ -13,17 +13,8 @@ jobs:
       with:
         fetch-depth: 2  
      
-    - name: Build docker with output
-      run: docker build -o type=tar,dest=out.tar .
-
-    - name: List current folder
-      run: ls
-
-    - name: Unpack tar
-      run: tar -xvf out.tar
-
-    - name: List output files
-      run: ls out
+    # - name: Build docker with output
+    #   run: docker build -o type=local,dest=out .
 
     - name: Deploy via FTP
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
