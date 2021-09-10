@@ -1,7 +1,7 @@
 {
-    "metaDescription": "Personal blog of [Ladislav Prix](https://ladislavprix.cz).",
-    "mainTitle": "Ladislav Prix's blog",
-    "mainDescription": "This is my personal blog where I write about things that come to my mind or interest me, mostly from tech tech industry. This site was created using [Contentium](https://github.com/prixladi/contentium).",
-    "footer": "Copyright 2021 © [Ladislav Prix](mailto:contact@ladislavprix.cz)",
-    "autosearchTresholdCount": "100"
+  "metaDescription": "Personal blog of [Ladislav Prix](https://ladislavprix.cz).",
+  "mainTitle": "Ladislav Prix's blog",
+  "mainDescription": "This is my personal blog where I write about things that come to my mind or interest me, mostly from tech tech industry. You can read more about me [here](https://ladislavprix.cz). This site was created using [Contentium](https://github.com/prixladi/contentium).",
+  "footer": "Copyright 2021 © [Ladislav Prix](mailto:contact@ladislavprix.cz)",
+  "autosearchTresholdCount": "100"
 }
