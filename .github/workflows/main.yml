@@ -13,11 +13,11 @@ jobs:
       with:
         fetch-depth: 2  
      
-    - name: Build docker with output
-      run: docker build -o . .
+     - name: Build docker with output
+       run: docker build -o type=tar,dest=out.tar .
 
-    - name: List current folder
-      run: ls
+     - name: Unpack tar
+       run: tar -xvf out.tar
 
     - name: List output files
       run: ls out
