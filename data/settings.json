@@ -1,7 +1,7 @@
 {
   "metaDescription": "Personal blog of [Ladislav Prix](https://ladislavprix.cz).",
   "mainTitle": "Ladislav Prix | blog",
-  "mainDescription": "This is my personal blog where I write about things that come to my mind or interest me, mostly from tech industry. You can read more about me [on my mine site](https://ladislavprix.cz). This site was created using [Contentium](https://github.com/prixladi/contentium).",
+  "mainDescription": "This is my personal blog where I write about things that come to my mind or interest me, mostly from tech industry. You can read more about me [on my personal site](https://ladislavprix.cz). This site was created using [Contentium](https://github.com/prixladi/contentium).",
   "ogImageExtension": "png",
   "ogUrl": "https://blog.ladislavprix.cz",
   "footer": "Copyright 2021 © [Ladislav Prix](mailto:contact@ladislavprix.cz)",
