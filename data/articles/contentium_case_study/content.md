@@ -1,4 +1,4 @@
-**Contentium** is a project you can use for creating sites with search engine optimalized, server side rendered/generated content that is written in markdown files. The project uses [Next.js](https://nextjs.org/) as the main framework, [mdx](https://mdxjs.com/) to render markdown, [Prism.js](https://prismjs.com/) for code highlights, and [Tailwind CSS](https://tailwindcss.com/) for styles. You can find the project on [Github](https://github.com/prixladi/contentium).
+**Contentium** is a project you can use for creating sites with search engine optimized, server side rendered/generated content that is written in markdown files. The project uses [Next.js](https://nextjs.org/) as the main framework, [mdx](https://mdxjs.com/) to render markdown, [Prism.js](https://prismjs.com/) for code highlights, and [Tailwind CSS](https://tailwindcss.com/) for styles. You can find the project on [Github](https://github.com/prixladi/contentium).
 
 Content is generated from the `./data` folder that is the root of the project. The folder contains `settings.json` file that contains the basic settings for a site.
 
