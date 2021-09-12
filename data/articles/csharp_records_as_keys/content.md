@@ -12,7 +12,7 @@ public record Key
 var distinctArticles = new HashSet<Key>();
 
 foreach(var article in articles)
-    distincArticles.Add(new Key 
+    distinctArticles.Add(new Key 
     { 
         Title = article.Title, 
         Batch = article.Batch  
