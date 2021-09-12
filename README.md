@@ -1,4 +1,4 @@
-# Ladislav Prix Blog
+# Ladislav Prix | blog
 
 [![Build and Deploy via FTP](https://github.com/prixladi/ladislavprix-blog/actions/workflows/main.yml/badge.svg)](https://github.com/prixladi/ladislavprix-blog/actions/workflows/main.yml)
 
